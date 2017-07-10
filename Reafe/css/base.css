@@ -1,10 +1,10 @@
-  /*初始化css*/ 
+  /*初始化css*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:0;border-spacing:0;}
 fieldest,img {borser:0;}
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
 ol,ul {list-style:none;}
-/*默认字体大小*/ 
+/*默认字体大小*/
 a,p,h3{font-size: 16px;text-decoration: none;color:#000;font-family: Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,tahoma,arial,simsun,\\5B8B\4F53;
 -webkit-font-smoothing: antialiased; /*chrome、safari*/
 -moz-osx-font-smoothing: grayscale;/*firefox*/}
@@ -18,9 +18,9 @@ h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 .fb{font-weight:bold}
 .fn{font-weight:normal}
 .t2{text-indent:2em}
-.1h150{line-height:150%}
-.1h180{line-height:180%}
-.1h200{line-height:200%}
+.lh150{line-height:150%}
+.lh180{line-height:180%}
+.lh200{line-height:200%}
 .unl{text-decoration:underline;}
 .no_unl{text-decoration:none;}
 /*定位*/
@@ -61,8 +61,8 @@ h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 .w600{width:600px}
 .w700{width:700px}
 .w800{width:800px}
-/*版心宽度*/ 
-.w{width:1030px}
+/*版心宽度*/
+.w{width:1030px;margin: 0 auto}
 .h50{height:50px}
 .h80{height:80px}
 .h100{height:100px}

@@ -1,9 +1,8 @@
-/*banner----------------------------------*/ 
+/*banner----------------------------------*/
 .banner{
 	width: 100%;
 	height: 100%;
-	background: url('../image/banner.jpg') 0 0/100% auto no-repeat;
-
+	background: url('../image/banner.jpg') center center no-repeat;
 }
 .banner .mask{
 	width: 100%;
@@ -11,7 +10,7 @@
 	background: url('../image/logo2.png') center center/50% auto no-repeat;
 	background-color: rgba(60,60,60,.5);
 }
-/*content----------------------------------*/ 
+/*content----------------------------------*/
 .content{
 	width: 100%;
 }
@@ -134,19 +133,25 @@
 	right: 0px;
 }
 .content .list-box .list-item:nth-child(even) .list-item-right img{
-	margin-top: 60px;
-	height: 400px;
+	position: absolute;
 	width: 800px;
-	transform: translatex(100%);
+	height: 400px;
+	top: 50%;
+	right: 0px;
+	margin-top: -200px;
+	transform: translatex(30%);
 }
 .content .list-box .list-item:nth-child(odd) .list-item-right img{
-	margin-top: 60px;
+	position: absolute;
 	height: 400px;
 	width: 800px;
+	top: 50%;
+	left: 0px;
+	margin-top: -200px;
 	transform: translatex(-30%);
 }
 
-/*交互效果*/ 
+/*交互效果*/
 .content .list-box .list-item:nth-child(odd):hover .list-item-right{
 	transform: translatex(150%);
 }
@@ -159,70 +164,8 @@
 .content .list-box .list-item:nth-child(even) .list-item-right:hover{
 	transform: translatex(-30%);
 }
-/*footer----------------------------------*/ 
-.footer{
-	width: 100%;
-	height: 580px;
-	padding: 80px 50px;
-	background-color: skyblue;
-	background: url('../image/link-bg.png') no-repeat;
-	background-size: 100% 100%;
-	box-sizing: border-box;
-	color: #262626;
-}
-.footer .box{
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
-}
-.footer .box .contact-box{
-	width: 100%;
-	height: 30%;
-	padding-top: 50px;
-	box-sizing: border-box;
-	text-align: center;
-}
-.footer .box .contact-box h3{
-	font-size: 20px;
-	text-align: center;
-	padding: 5px 0;
-}
-.footer .box .contact-box p{
-	display: inline-block;
-	font-size: 20px;
-	text-align: center;
-	margin: 0 auto;
-	width: auto;
-	border-bottom: 2px solid #BFBFBF;
-}
-.footer .box .link-box{
-	margin: 0 auto;
-	height: 50%;
-	box-sizing: border-box;
-}
-.footer .box .link-box ul{
-	float: left;
-	line-height: 40px;
-	padding: 30px 40px;
-}
-.footer .box .link-box ul a{
-	font-size: 14px;
-}
-.footer .box .link-box ul li a:hover{
-	color: #FACB87;
-}
-.footer .box .link-box .QRcode{
-	margin-top: 50px;
-	height: 100px;
-	height: 100px;
-	float: left;
-	padding: 50px 30px 0px 35px;
-}
-.footer .box .link-box .QRcode img{
-	width: 100px;
-	height: 100px;
-}
-/*copy----------------------------------*/ 
+
+/*copy----------------------------------*/
 .copy{
 	height: 60px;
 	background-color: #4B3939;

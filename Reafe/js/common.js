@@ -1,11 +1,11 @@
 $(function(){
 	//控制banner大图随窗口等比例缩放
-	var clientWigth = $(window).width();
-	$('.banner').css('height',clientWigth*0.55);
-	$(window).resize(function(){
-		var clientWigth = $(window).width();
-		$('.banner').css('height',clientWigth*0.55);
-	});
+	// var clientWigth = $(window).width();
+	// $('.banner').css('height',clientWigth*0.55);
+	// $(window).resize(function(){
+	// 	var clientWigth = $(window).width();
+	// 	$('.banner').css('height',clientWigth*0.55);
+	// });
 	//页面滚动导航透明度改变
 	$(window).scroll(function(){
 		if($('body').scrollTop()>80){
