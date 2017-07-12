@@ -1,7 +1,7 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:0;border-spacing:0;}
 fieldest,img {borser:0;}
-address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
 ol,ul {list-style:none;}
 /*默认字体大小*/
 a,p,h3{font-size: 16px;text-decoration: none;color:#000;font-family: Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,tahoma,arial,simsun,\\5B8B\4F53;

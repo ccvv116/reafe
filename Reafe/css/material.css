@@ -1,4 +1,3 @@
-/*bootstrap导航样式*/
 .reafenav {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
@@ -140,9 +139,10 @@ fieldset[disabled] .reafenav .btn-link:focus {
 .banner .mask{
   position: absolute;
   font-size: 30px;
-  line-height: 60px;
+  line-height: 60px;;
+  text-align: center;
   width: 800px;
-  height: 500px;
+  height: 250px;
   top: 50%;
   left: 50%;
   margin-left: -400px;
@@ -152,60 +152,44 @@ fieldset[disabled] .reafenav .btn-link:focus {
   box-sizing: border-box;
   color: #FACB87;
 }
-.banner .mask.ml{
-  padding:40px;
-  width: 500px;
-  margin-top: -250px;
-  margin-left: 0px;
-  left: 2%;
-  color: #FACB87;
-  line-height: 30px;
+
+/*手风琴组件*/
+.panel-heading {
+  padding: 10px 15px;
+  height: 240px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
-.banner .mask.ml p{
-  margin-top: 20px;
-  color:#777;
+.panel-heading .container{
+  height: 100%;
+}
+.panel-heading .container .row{
+  height: 100%;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.content .panel-group .material-icon{
+  height: 100px;
+  margin-top: 70px;
+}
+.content .panel-group .mat-text{
+  height: 100%;
+
+}
+.content .panel-group .mat-text h3{
+  margin-top: 70px;
 }
 
-/*content md3------------------------------------------------------------*/
-.content .md3 {
-  margin-top: 50px;
-}
-.content .banner2{
-  width: 100%;
-}
-.content .md3 img{
-  width: 100%;
+.content .panel-group .mat-button{
   display: block;
-  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  margin: 80px auto 0px;
+  background: url('../image/material/成分2.png') 0 0/50px 50px no-repeat;
 }
-.content .md4{
-  padding-top: 50px;
-}
-.content .md4 .m4-item{
-  height: 300px;
-  vertical-align: middle;
-}
-.content .md4 .m4-item img{
-  height: 200px;
-}
-.content .md4 .m4-item .bg-logo{
-  display: block;
-  height: 30px;
-  width: 100px;
-  background:url('../image/productdetail/logo3.png') center center/auto 30px no-repeat;
-}
-.content .md4 .m4-item p{
-  margin-top: 10px;
-}
-.content .md6{
-  width:
-}
-.content .md6 img{
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-/*footer-----------------------------------*/
+
 footer.style-2 {
     background: #333;
     color: #fff;
