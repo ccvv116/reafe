@@ -162,9 +162,6 @@ fieldset[disabled] .reafenav .btn-link:focus {
 .content .md2{
 	padding: 50px 0;
 }
-.content .md2 img{
-	width: 150px;
-}
 
 /*md3------------------------------*/
 .content .md3 .md3-item{
@@ -173,15 +170,75 @@ fieldset[disabled] .reafenav .btn-link:focus {
 .content .md3 .md3-item p{
 	padding-top: 10px;
 }
+
+.content .md4{
+  padding-top: 50px;
+}
+.content .md4_{
+  height: 400px;
+  background: url('../image/brand.png') center bottom/100% 400px no-repeat;
+}
+.content .md5 .container-fluid{
+  padding: 0;
+}
 .content .md5 .md5-item{
 	position: relative;
+  overflow: hidden;
 }
-.content .md5 .pro-img{
-	position: absolute;
-	height: 70%;
-	top:50%;
-	margin-top: -14%;
-	margin-left: -50%;
+.content .md5 .md5-item .md5-bg-text{
+  position: absolute;
+  top:50%;
+  height: 100px;
+  margin-top: -50px;
+  left: 0;
+  width: 100%;
+  font-family: Microsoft YaHei;
+  color: #fff;
+}
+.content .md5 .md5-item:nth-child(odd) .pro-box{
+  position: absolute;
+  height: 100%;
+  width: 65%;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  transition:all 2s;
+}
+.content .md5 .md5-item:nth-child(odd) .pro-img{
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  height: 80%;
+}
+
+.content .md5 .md5-item:nth-child(even) .pro-box{
+  position: absolute;
+  height: 100%;
+  width: 65%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transition:all 2s;
+}
+.content .md5 .md5-item:nth-child(even) .pro-img{
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  height: 80%;
+}
+
+/*交互效果*/ 
+.content .md5 .md5-item:nth-child(odd):hover .pro-box{
+  transform:translatex(80%);
+}
+.content .md5 .md5-item:nth-child(even):hover .pro-box{
+  transform:translatex(-80%);
+}
+.content .md5 .md5-item:nth-child(odd) .pro-box:hover{
+  transform:translatex(0);
+}
+.content .md5 .md5-item:nth-child(even) .pro-box:hover{
+  transform:translatex(0);
 }
 /*footer-------------------------------------------------------------*/
 
