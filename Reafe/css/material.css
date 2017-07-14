@@ -187,9 +187,62 @@ fieldset[disabled] .reafenav .btn-link:focus {
   width: 50px;
   height: 50px;
   margin: 80px auto 0px;
-  background: url('../image/material/成分2.png') 0 0/50px 50px no-repeat;
+  background: 0 0/50px 50px no-repeat;
 }
-
+.content .panel-group .mat-button.add0{
+  background-image: url('../image/material/add0.png');
+}
+.content .panel-group .mat-button.add1{
+  background-image: url('../image/material/add1.png');
+}
+.content .panel-group .mat-button.add2{
+  background-image: url('../image/material/add2.png');
+}
+.content .panel-group .mat-button.add3{
+  background-image: url('../image/material/add3.png');
+}
+.content .panel-group .mat-button.add4{
+  background-image: url('../image/material/add4.png');
+}
+.content .panel-group .mat-button.add5{
+  background-image: url('../image/material/add5.png');
+}
+.content .panel-group .mat-button.red0{
+  background-image: url('../image/material/red0.png');
+}
+.content .panel-group .mat-button.red1{
+  background-image: url('../image/material/red1.png');
+}
+.content .panel-group .mat-button.red2{
+  background-image: url('../image/material/red2.png');
+}
+.content .panel-group .mat-button.red3{
+  background-image: url('../image/material/red3.png');
+}
+.content .panel-group .mat-button.red4{
+  background-image: url('../image/material/red4.png');
+}
+.content .panel-group .mat-button.red5{
+  background-image: url('../image/material/red5.png');
+}
+.content .panel-group .panel-body .row{
+  padding-top: 20px;
+}
+.content .panel-group .panel-body .item-box{
+  padding: 0 30px;
+  height: 220px;
+}
+.content .panel-group .panel-body .item-box img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.content .panel-group .panel-body .item-box h4{
+  color: #000;
+}
+.content .panel-group .panel-body .item-box p{
+  color: #666;
+}
 footer.style-2 {
     background: #333;
     color: #fff;
