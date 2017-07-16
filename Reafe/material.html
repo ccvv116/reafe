@@ -481,7 +481,12 @@
       $(this).addClass('add'+$(this).index('.content .panel-group .mat-button'))
     })
     $('.content .panel-group .mat-button').click(function(){
-      $(this).toggleClass('red'+$(this).index('.content .panel-group .mat-button'));
+    	if($(this).attr('class').indexOf('red') !== -1){//点击减号
+    		$(this).addClass('add'+$(this).index('.content .panel-group .mat-button')).removeClass('red'+$(this).index('.content .panel-group .mat-button'));
+    	}else{//点击加号
+    		$('.content .panel-group .mat-button').removeClass('red0 red1 red2 red3 red4 red5');
+    		$(this).addClass('red'+$(this).index('.content .panel-group .mat-button'));
+    	}
     })
   })
 </script>
