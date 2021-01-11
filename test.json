@@ -9,7 +9,7 @@
       "port": 5599,
       "protocol": "shadowsocks",
       "settings": {
-        "method": "chacha20-poly1305",
+        "method": "chacha20-ietf-poly1305",
         "password": "dontshare",
         "network": "tcp,udp",
         "level": 0
